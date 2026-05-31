@@ -1,0 +1,129 @@
+METISOR GAME ENGINE – END USER LICENSE AGREEMENT (EULA)
+
+Metisor Game Engine
+Copyright (c) 2026 The Metisor Team
+All rights reserved.
+
+IMPORTANT: all mentions of "the publisher" refer to The Metisor Team.
+
+1. IMPORTANT NOTICE
+
+This End User License Agreement (“Agreement”) is a legal agreement between you (an individual or legal entity) and The Publisher governing the use of the Metisor Game Engine software, including all associated files, libraries, tools, documentation, and updates (collectively, the “Software”).
+
+By installing, copying, accessing, or using the Software, you agree to be bound by the terms of this Agreement. If you do not agree, you must not install or use the Software.
+
+If you are under the age of legal majority in your jurisdiction, you may only use the Software under the supervision of a parent or legal guardian.
+
+2. LICENSE GRANT
+
+The Publisher grants you a worldwide, non-exclusive, non-transferable, non-sublicensable, revocable license to use the Software for the purpose of developing, testing, and distributing applications, including personal, educational, and commercial video games and interactive software.
+
+The Software is licensed, not sold. No ownership rights are transferred to you.
+
+3. OWNERSHIP
+
+All rights, title, and interest in and to the Software remain the exclusive property of The Publisher.
+
+This includes, without limitation, source code, architecture, design, systems, tools, assets, and documentation.
+
+Except for the limited rights expressly granted in this Agreement, no rights are granted to you.
+
+4. PERMITTED USE
+
+You may:
+
+Use the Software to create applications
+Publish and distribute compiled applications created with the Software
+Monetize applications created using the Software
+Use the Software for personal, educational, and commercial purposes
+5. RESTRICTIONS
+
+You may not, and may not permit others to:
+
+Reverse engineer, decompile, or disassemble the Software, except where required by law
+Modify, adapt, or create derivative works of the Software
+Distribute, sublicense, rent, lease, sell, or transfer the Software on a standalone basis
+Extract, reuse, or replicate internal engine components or proprietary systems
+Remove or alter any copyright, trademark, or proprietary notices
+Expose internal tools, source code, or non-public engine files
+6. COMMERCIAL USE & REVENUE SHARE
+
+This Section applies to all commercial use of the Software.
+
+6.1 Free Use Threshold
+
+You may use the Software free of charge until your total gross revenue generated from applications using the Software exceeds €25,000 (twenty-five thousand euros) within a rolling 12-month period.
+
+6.2 Standard Commercial Model
+
+Once the threshold in Section 6.1 is exceeded, you agree to pay The Publisher a royalty of:
+
+5% of gross revenue derived from applications using the Software.
+
+“Gross revenue” includes all income generated before taxes, platform fees, refunds, and processing costs.
+
+6.3 Reporting & Payment
+Revenue must be reported quarterly
+Payments must be made within 30 days after each reporting period
+Accurate records must be maintained to support revenue reporting
+6.4 Verification
+
+The Publisher may request reasonable documentation to verify compliance with this Agreement, with minimal disruption to your operations.
+
+7. ENTERPRISE USE
+
+If your organization or product exceeds €250,000 annual gross revenue, or if you require enterprise-grade terms, you may be subject to an Enterprise License.
+
+Under Enterprise terms, The Publisher may offer:
+
+Reduced or alternative royalty structures (including flat annual licensing fees)
+Priority support services
+Optional access to enhanced or restricted engine components under separate agreement
+Multi-team and organization-wide deployment rights
+
+Enterprise terms must be agreed in writing between both parties and override Section 6 where applicable.
+
+8. REDISTRIBUTION OF APPLICATIONS
+
+You may distribute applications created using the Software provided that:
+
+the Software is included only as part of a compiled application
+it cannot be extracted, separated, or reused independently
+no internal engine source code, tools, or proprietary components are exposed
+9. UPDATES AND MODIFICATIONS
+
+The Publisher may provide updates, patches, or new versions of the Software at its discretion.
+
+The Publisher reserves the right to modify, suspend, or discontinue the Software at any time, with or without notice, and without liability.
+
+10. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTY OF ANY KIND.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE PUBLISHER DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+11. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE PUBLISHER SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATING TO THE USE OR INABILITY TO USE THE SOFTWARE.
+
+12. TERMINATION
+
+This Agreement remains in effect until terminated.
+
+It will terminate automatically if you breach any of its terms.
+
+Upon termination, you must immediately cease all use of the Software and delete all copies in your possession or control.
+
+13. GOVERNING LAW
+
+This Agreement shall be governed by and interpreted in accordance with the laws of Flanders Belgium, without regard to conflict of law principles.
+
+14. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between you and The Publisher regarding the Software and supersedes all prior agreements or understandings.
+
+15. ACCEPTANCE
+
+By installing or using the Software, you acknowledge that you have read, understood, and agree to be bound by this Agreement.
+
+END OF AGREEMENT
