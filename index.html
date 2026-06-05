@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Metisor Engine</title>
 
 <style>
@@ -18,40 +18,44 @@
   --muted:#6b7280;
 
   --blue:#6366f1;
-  --mint:#14b8a6;
-  --orange:#ff6a00;
 }
 
 *{
   margin:0;
   padding:0;
   box-sizing:border-box;
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI;
+  font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;
 }
 
 body{
   color:var(--text);
-  background: radial-gradient(circle at top left, var(--bg2), transparent 40%),
-              radial-gradient(circle at bottom right, var(--bg3), transparent 40%),
-              var(--bg1);
+  background:
+    radial-gradient(circle at top left,var(--bg2),transparent 40%),
+    radial-gradient(circle at bottom right,var(--bg3),transparent 40%),
+    var(--bg1);
   overflow-x:hidden;
 }
 
-/* blobs */
 .blob{
   position:fixed;
   width:420px;
   height:420px;
   border-radius:50%;
   filter:blur(90px);
-  opacity:0.35;
+  opacity:.35;
   z-index:-1;
   animation:float 12s ease-in-out infinite;
 }
 
-.b1{background:#a5b4fc; top:-140px; left:-120px;}
-.b2{background:#5eead4; bottom:-160px; right:-140px;}
-.b3{background:#f9a8d4; top:40%; left:50%; transform:translate(-50%,-50%); animation-delay:3s;}
+.b1{background:#a5b4fc;top:-140px;left:-120px;}
+.b2{background:#5eead4;bottom:-160px;right:-140px;}
+.b3{
+  background:#f9a8d4;
+  top:40%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  animation-delay:3s;
+}
 
 @keyframes float{
   0%,100%{transform:translateY(0);}
@@ -61,13 +65,14 @@ body{
 header{
   position:sticky;
   top:0;
-  backdrop-filter: blur(14px);
-  background:rgba(255,255,255,0.7);
+  backdrop-filter:blur(14px);
+  background:rgba(255,255,255,.75);
   border-bottom:1px solid var(--border);
   display:flex;
   justify-content:space-between;
   align-items:center;
   padding:14px 26px;
+  z-index:100;
 }
 
 .logo{
@@ -82,19 +87,20 @@ nav a{
   font-size:14px;
 }
 
-nav a:hover{color:var(--text);}
+nav a:hover{
+  color:var(--text);
+}
 
-/* ORANGE INSTALL BUTTON */
 .install-btn{
-  background: linear-gradient(135deg, #ff8a00, #ff4d00);
+  background:linear-gradient(135deg,#ff8a00,#ff4d00);
   color:white;
   padding:10px 16px;
   border-radius:12px;
   text-decoration:none;
   font-weight:700;
   font-size:14px;
-  box-shadow:0 12px 28px rgba(255, 106, 0, 0.25);
-  transition:0.25s;
+  box-shadow:0 12px 28px rgba(255,106,0,.25);
+  transition:.25s;
   display:inline-block;
   position:relative;
   overflow:hidden;
@@ -102,22 +108,21 @@ nav a:hover{color:var(--text);}
 
 .install-btn:hover{
   transform:translateY(-3px) scale(1.03);
-  box-shadow:0 18px 40px rgba(255, 106, 0, 0.35);
+  box-shadow:0 18px 40px rgba(255,106,0,.35);
 }
 
-/* subtle shine */
 .install-btn::after{
   content:"";
   position:absolute;
   inset:-50%;
-  background: radial-gradient(circle, rgba(255,255,255,0.35), transparent 60%);
+  background:radial-gradient(circle,rgba(255,255,255,.35),transparent 60%);
   animation:shine 3s infinite;
 }
 
 @keyframes shine{
-  0%{transform:translateX(-60%); opacity:0;}
-  50%{opacity:0.6;}
-  100%{transform:translateX(60%); opacity:0;}
+  0%{transform:translateX(-60%);opacity:0;}
+  50%{opacity:.6;}
+  100%{transform:translateX(60%);opacity:0;}
 }
 
 .hero{
@@ -127,7 +132,7 @@ nav a:hover{color:var(--text);}
 
 .badge{
   display:inline-block;
-  background:rgba(99,102,241,0.12);
+  background:rgba(99,102,241,.12);
   color:var(--blue);
   padding:6px 10px;
   border-radius:999px;
@@ -165,16 +170,20 @@ nav a:hover{color:var(--text);}
   border:1px solid var(--border);
   border-radius:16px;
   padding:16px;
-  backdrop-filter: blur(10px);
-  transition:0.25s;
+  backdrop-filter:blur(10px);
+  transition:.25s;
 }
 
 .card:hover{
   transform:translateY(-4px);
-  box-shadow:0 18px 40px rgba(0,0,0,0.08);
+  box-shadow:0 18px 40px rgba(0,0,0,.08);
 }
 
-.muted{color:var(--muted); font-size:14px; line-height:1.5;}
+.muted{
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.5;
+}
 
 .cta{
   display:flex;
@@ -192,30 +201,23 @@ nav a:hover{color:var(--text);}
   background:white;
 }
 
-/* license */
-#licensePage{
-  display:none;
-  padding:40px;
-}
-
 .box{
   background:#0b1220;
   color:#e5e7eb;
   padding:20px;
   border-radius:14px;
-  font-family:monospace;
+  font-family:Consolas,monospace;
   white-space:pre-wrap;
-  min-height:75vh;
+  min-height:300px;
+  max-height:600px;
+  overflow:auto;
+  margin-top:12px;
 }
 
-.back{
-  display:inline-block;
-  margin-bottom:12px;
-  background:var(--blue);
-  color:white;
-  padding:8px 12px;
-  border-radius:10px;
-  cursor:pointer;
+footer{
+  text-align:center;
+  padding:40px;
+  color:var(--muted);
 }
 </style>
 </head>
@@ -226,36 +228,34 @@ nav a:hover{color:var(--text);}
 <div class="blob b2"></div>
 <div class="blob b3"></div>
 
-<div id="main">
-
 <header>
   <div class="logo">Metisor Engine</div>
+
   <nav>
     <a href="#features">Features</a>
     <a href="#start">Start</a>
     <a href="#legal">Legal</a>
   </nav>
 
-  <!-- INSTALL BUTTON -->
   <a class="install-btn"
-     href="https://raw.githubusercontent.com/ScuffedWizard/Metisor-Game-Engine/main/Engine.exe"
-     download>
-     Install Metisor
+     href="https://github.com/ScuffedWizard/Metisor-Game-Engine/releases/tag/0.1">
+     Download v0.1
   </a>
 </header>
 
 <section class="hero">
   <div class="badge">Beginner-friendly engine</div>
+
   <h1>Build games without complexity.</h1>
+
   <p>
     Metisor is a lightweight C++ engine framework designed to help you start
-    making games quickly — without overwhelming complexity.
+    making games quickly without overwhelming complexity.
   </p>
 
   <div class="cta">
     <a class="install-btn"
-       href="https://raw.githubusercontent.com/ScuffedWizard/Metisor-Game-Engine/main/Engine.exe"
-       download>
+       href="https://github.com/ScuffedWizard/Metisor-Game-Engine/releases/tag/0.1">
        Install Now
     </a>
 
@@ -269,22 +269,30 @@ nav a:hover{color:var(--text);}
   <div class="grid">
     <div class="card">
       <b>Simple to Learn</b>
-      <p class="muted">Designed so beginners can understand how everything works.</p>
+      <p class="muted">
+        Designed so beginners can understand how everything works.
+      </p>
     </div>
 
     <div class="card">
       <b>Fast Performance</b>
-      <p class="muted">Built on Vulkan for smooth rendering and efficiency.</p>
+      <p class="muted">
+        Built on Vulkan for smooth rendering and efficiency.
+      </p>
     </div>
 
     <div class="card">
       <b>Clean Structure</b>
-      <p class="muted">No messy architecture — just clear systems.</p>
+      <p class="muted">
+        No messy architecture — just clear systems.
+      </p>
     </div>
 
     <div class="card">
       <b>Expandable</b>
-      <p class="muted">Start simple, scale into advanced rendering later.</p>
+      <p class="muted">
+        Start simple, scale into advanced rendering later.
+      </p>
     </div>
   </div>
 </section>
@@ -294,35 +302,79 @@ nav a:hover{color:var(--text);}
 
   <div class="grid">
     <div class="card">
-      <b>1. Install</b>
-      <p class="muted">Click install and download the engine.</p>
+      <b>1. Download</b>
+      <p class="muted">
+        Download the latest release from GitHub.
+      </p>
     </div>
 
     <div class="card">
       <b>2. Open Project</b>
-      <p class="muted">Start with included beginner templates.</p>
+      <p class="muted">
+        Start with included beginner templates.
+      </p>
     </div>
 
     <div class="card">
       <b>3. Build</b>
-      <p class="muted">Create your first game step-by-step.</p>
+      <p class="muted">
+        Create your first game step-by-step.
+      </p>
     </div>
   </div>
 </section>
 
 <section id="legal" class="section">
-  <h2>Legal</h2>
+  <h2>License</h2>
 
   <div class="card">
-    <p class="muted">
-      View the full <b>LICENSE.txt</b> in your repository.
-    </p>
+    <div id="licenseContent" class="box">
+Loading LICENSE.txt...
+    </div>
   </div>
 </section>
 
-</div>
+<footer>
+  © 2026 Metisor Engine
+</footer>
 
 <script>
+async function loadLicense() {
+  const container = document.getElementById("licenseContent");
+
+  try {
+    const response = await fetch(
+      "https://raw.githubusercontent.com/ScuffedWizard/Metisor-Game-Engine/main/LICENSE.txt",
+      { cache: "no-cache" }
+    );
+
+    if (!response.ok) {
+      throw new Error(
+        "GitHub returned " +
+        response.status +
+        " " +
+        response.statusText
+      );
+    }
+
+    const text = await response.text();
+    container.textContent = text;
+  }
+  catch(error) {
+    console.error(error);
+
+    container.textContent =
+`Unable to load LICENSE.txt
+
+Repository:
+https://github.com/ScuffedWizard/Metisor-Game-Engine
+
+Error:
+${error.message}`;
+  }
+}
+
+loadLicense();
 </script>
 
 </body>
