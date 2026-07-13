@@ -4,7 +4,7 @@ A lightweight, high-performance Vulkan path-tracing engine framework written in 
 
 ## Overview
 
-Metisor is designed from the ground up for low-level performance, architectural efficiency, and minimal binary size. By avoiding heavy managed runtimes, external abstractions, and garbage-collected frameworks, Metisor achieves a compact ~1MB executable footprint while maintaining direct, sub-millisecond communication with the modern graphics pipeline. 
+Metisor is designed from the ground up for low-level performance, architectural efficiency, and minimal binary size. By avoiding heavy managed runtimes, external abstractions, and garbage-collected frameworks, Metisor achieves a compact -10MB executable footprint while maintaining direct, sub-millisecond communication with the modern graphics pipeline. 
 
 The core framework prioritizes explicit memory management, rigorous geometry culling math, and highly optimized hardware scheduling.
 
