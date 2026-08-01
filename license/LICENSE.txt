@@ -1,0 +1,183 @@
+METISOR GAME ENGINE - END USER LICENSE AGREEMENT (EULA)
+
+Metisor Game Engine
+Copyright (c) 2026 The Metisor Team
+All rights reserved.
+
+IMPORTANT: all mentions of "the Publisher" refer to The Metisor Team.
+
+1. IMPORTANT NOTICE
+
+This End User License Agreement ("Agreement") is a legal agreement between you (an individual or legal entity) and The Publisher governing the use of the Metisor Game Engine software, including all associated files, libraries, tools, documentation, and updates (collectively, the "Software").
+
+By installing, copying, accessing, or using the Software, you agree to be bound by the terms of this Agreement. If you do not agree, you must not install or use the Software.
+
+If you are under the age of legal majority in your jurisdiction, you may only use the Software under the supervision of a parent or legal guardian.
+
+2. LICENSE GRANT
+
+The Publisher grants you a worldwide, non-exclusive, non-transferable, non-sublicensable, revocable license to use the Software for the purpose of developing, testing, and distributing applications, including personal, educational, and commercial video games and interactive software.
+
+The Software is licensed, not sold. No ownership rights are transferred to you.
+
+3. OWNERSHIP
+
+All rights, title, and interest in and to the Software remain the exclusive property of The Publisher.
+
+This includes, without limitation, source code, architecture, design, systems, tools, assets, and documentation.
+
+Except for the limited rights expressly granted in this Agreement, no rights are granted to you.
+
+4. PERMITTED USE
+
+You may:
+
+- Use the Software to create applications
+- Publish and distribute compiled applications created with the Software
+- Monetize applications created using the Software
+- Use the Software for personal, educational, and commercial purposes
+
+5. RESTRICTIONS
+
+You may not, and may not permit others to:
+
+- Reverse engineer, decompile, or disassemble the Software, except where required by law
+- Modify, adapt, or create derivative works of the Software
+- Distribute, sublicense, rent, lease, sell, or transfer the Software on a standalone basis
+- Extract, reuse, or replicate internal engine components or proprietary systems
+- Remove or alter any copyright, trademark, or proprietary notices
+- Expose internal tools, source code, or non-public engine files
+
+6. COMMERCIAL USE & REVENUE SHARE
+
+This Section applies to all commercial use of the Software. The table below summarizes all revenue tiers; Sections 6.1-6.6 and Section 7 set out the full terms for each.
+
+    TIER                    ANNUAL GROSS REVENUE           ROYALTY   NOTES
+                            (rolling 12 months)             RATE
+    ---------------------------------------------------------------------------------
+    Free Use                EUR 0 - EUR 25,000               0%      No royalty owed
+    Standard Commercial     EUR 25,000 - EUR 250,000          5%      Applies to gross revenue
+    Enterprise               EUR 250,000 - $1,000,000         3%      See Section 7.1 below
+    Mega Studio              $1,000,000+                      1%      See Section 7.2 below
+
+6.1 Free Use Threshold
+
+You may use the Software free of charge until your total gross revenue generated from applications using the Software exceeds EUR 25,000 (twenty-five thousand euros) within a rolling 12-month period.
+
+6.2 Standard Commercial Model
+
+Once the threshold in Section 6.1 is exceeded, and until your gross revenue exceeds EUR 250,000 (at which point Section 7.1 applies instead), you agree to pay The Publisher a royalty of:
+
+    5% of gross revenue derived from applications using the Software.
+
+"Gross revenue" includes all income generated before taxes, platform fees, refunds, and processing costs, including without limitation:
+
+- Initial sale price and box/unit sales
+- In-app purchases, downloadable content (DLC), and expansion packs
+- Season passes, battle passes, and other time-limited paid content
+- Subscription revenue attributable to access to the application
+- In-game advertising revenue
+- Merchandising, licensing, and media rights revenue directly attributable to the application
+
+This list is illustrative and not exhaustive. Any revenue stream generated directly through, within, or by virtue of an application built with the Software falls within "gross revenue" regardless of how it is labeled or structured.
+
+6.3 Reporting & Payment
+
+- Revenue must be reported quarterly
+- Payments must be made within 30 days after each reporting period
+- Accurate records must be maintained to support revenue reporting
+
+6.4 Verification & Audit
+
+The Publisher may request reasonable documentation to verify compliance with this Agreement, with minimal disruption to your operations.
+
+In addition, The Publisher may, no more than once per rolling 12-month period and on no less than 15 business days' written notice, audit or have a designated third party audit your books and records solely to the extent reasonably necessary to verify gross revenue and royalty payments under this Agreement.
+
+If an audit reveals that royalties owed for the audited period were underpaid by more than 5% (five percent), you agree to promptly pay the shortfall plus the reasonable cost of the audit. If underpayment is 5% or less, each party bears its own audit costs, and you agree to promptly pay the shortfall.
+
+6.5 Tier Transitions
+
+Royalty rates are determined by your applications' total trailing 12-month gross revenue at the time each reporting period closes. If your revenue crosses a tier threshold during a reporting period, the royalty rate applicable to that period is the rate for the tier in effect on the last day of that period. Moving between tiers does not retroactively change royalties already paid for prior periods.
+
+6.6 Affiliates and Successor Entities
+
+For the purposes of calculating gross revenue and determining applicable tiers under Section 6 and Section 7, revenue generated by any parent, subsidiary, affiliate, successor, or other entity under common ownership or control with you, where that entity distributes, operates, monetizes, or otherwise derives revenue from an application built using the Software, is aggregated with your own revenue.
+
+You may not structure, restructure, or route revenue through separate entities, publishing arrangements, or licensing structures for the purpose of avoiding or reducing royalties otherwise owed under this Agreement. The Publisher may treat any such arrangement as a single combined entity for purposes of calculating gross revenue.
+
+7. ENTERPRISE USE
+
+7.1 Enterprise License
+
+If your organization's applications generate gross revenue between EUR 250,000 and $1,000,000 within a rolling 12-month period, the royalty rate specified in Section 6.2 is reduced to:
+
+    3% of gross revenue derived from applications using the Software.
+
+This rate applies automatically once the EUR 250,000 threshold is exceeded, in place of the 5% Standard Commercial rate, without requiring a separate negotiated agreement. All other terms of Section 6 (reporting, payment, verification, and the "gross revenue" definition) continue to apply.
+
+If you require terms beyond the royalty rate itself - including any of the below - you may request an Enterprise License, to be agreed in writing and which will override this Section 7.1 where applicable:
+
+- Reduced or alternative royalty structures (including flat annual licensing fees)
+- Priority support services
+- Optional access to enhanced or restricted engine components under separate agreement
+- Multi-team and organization-wide deployment rights
+
+7.2 Mega Studio Tier
+
+If your organization's applications generate gross revenue exceeding $1,000,000 (one million US dollars, or the equivalent in local currency) within a rolling 12-month period, you qualify for the Mega Studio Tier.
+
+Under the Mega Studio Tier:
+
+- The royalty rate on gross revenue attributable to applications built with the Software is reduced to 1% (one percent), in place of the rate specified in Section 6.2.
+- Qualification and continued eligibility are determined on the same rolling 12-month gross revenue basis described in Section 6.5.
+- The Publisher may require additional reporting detail, audit rights, or a signed Mega Studio addendum as a condition of applying this rate.
+- Priority support and early access to engine roadmap items may be offered at The Publisher's discretion under a separate agreement.
+- The Publisher reserves the right to offer further negotiated terms to Mega Studio Tier licensees on a case-by-case basis; any such terms must be agreed in writing and will override this Section 7.2 where applicable.
+
+The Mega Studio Tier does not alter any other obligation under this Agreement, including reporting, payment, verification, and audit provisions in Section 6.
+
+8. REDISTRIBUTION OF APPLICATIONS
+
+You may distribute applications created using the Software provided that:
+
+- the Software is included only as part of a compiled application
+- it cannot be extracted, separated, or reused independently
+- no internal engine source code, tools, or proprietary components are exposed
+
+9. UPDATES AND MODIFICATIONS
+
+The Publisher may provide updates, patches, or new versions of the Software at its discretion.
+
+The Publisher reserves the right to modify, suspend, or discontinue the Software at any time, with or without notice, and without liability.
+
+10. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE PUBLISHER DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+11. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE PUBLISHER SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATING TO THE USE OR INABILITY TO USE THE SOFTWARE.
+
+12. TERMINATION
+
+This Agreement remains in effect until terminated.
+
+It will terminate automatically if you breach any of its terms.
+
+Upon termination, you must immediately cease all use of the Software and delete all copies in your possession or control.
+
+13. GOVERNING LAW
+
+This Agreement shall be governed by and interpreted in accordance with the laws of Flanders, Belgium, without regard to conflict of law principles.
+
+14. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between you and The Publisher regarding the Software and supersedes all prior agreements or understandings.
+
+15. ACCEPTANCE
+
+By installing or using the Software, you acknowledge that you have read, understood, and agree to be bound by this Agreement.
+
+END OF AGREEMENT
