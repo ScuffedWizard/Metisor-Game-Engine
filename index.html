@@ -784,7 +784,7 @@ async function loadLicense() {
   const el = document.getElementById('licenseContent');
   try {
     const res = await fetch(
-      'https://raw.githubusercontent.com/ScuffedWizard/Metisor-Game-Engine/main/LICENSE.txt',
+      'https://raw.githubusercontent.com/ScuffedWizard/Metisor-Game-Engine/main/license/LICENSE.txt',
       { cache: 'no-cache' }
     );
     if (!res.ok) throw new Error('HTTP ' + res.status);
