@@ -93,3 +93,8 @@ Future improvements include:
 Metisor Game Engine is a proprietary game engine developed by The Metisor Team.
 
 Designed for developers who want a powerful, extensible platform for creating games and interactive experiences.
+
+
+
+
+Oh yeah metisor is in alpha. -- Scuffedwizard
