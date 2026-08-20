@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Metisor — Scales With Your Ideas</title>
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav" id="siteNav">
+    <a href="#landing" class="nav__mark">Metisor</a>
+    <nav class="nav__links">
+      <a href="#the-core" class="nav__link">The Core</a>
+      <a href="#pipeline" class="nav__link">Pipeline</a>
+      <a href="#builders" class="nav__link">Who's Building</a>
+      <a href="#get-metisor" class="nav__link nav__link--cta">Get Metisor</a>
+    </nav>
+    <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+
+    <!-- ================= LANDING (light) ================= -->
+    <section class="theme-light" id="landing" data-theme="light">
+      <div class="hero">
+        <div class="hero__text">
+          <p class="hero__eyebrow">Version 0.1 — Windows 11</p>
+          <h1 class="hero__headline">
+            <span class="grad-text">Metisor</span><br>
+            Scales With<br>
+            Your Ideas
+          </h1>
+          <p class="hero__sub">
+            A high-performance engine built to run as well on a five-year-old
+            laptop as it does on a render farm. DirectX 12 and Vulkan, one codebase.
+          </p>
+          <div class="hero__actions">
+            <a href="#get-metisor" class="btn btn--primary">Download Metisor</a>
+            <a href="#" class="btn btn--ghost">Read the docs</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="strip">
+        <div class="strip__item">
+          <span class="strip__label">Render backends</span>
+          <span class="strip__value">DirectX 12 · Vulkan</span>
+        </div>
+        <div class="strip__item">
+          <span class="strip__label">Platforms live</span>
+          <span class="strip__value">Windows 11</span>
+        </div>
+        <div class="strip__item">
+          <span class="strip__label">In development</span>
+          <span class="strip__value">macOS · Android</span>
+        </div>
+        <div class="strip__item">
+          <span class="strip__label">Runs on</span>
+          <span class="strip__value">Integrated graphics → workstation clusters</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= THE CORE (dark) ================= -->
+    <section class="theme-dark" id="the-core" data-theme="dark">
+      <div class="core-hero">
+        <div class="core-hero__grid" id="loadGrid"></div>
+        <div class="core-hero__text">
+          <p class="core-hero__eyebrow">Workload distribution</p>
+          <h1 class="core-hero__headline">One engine.<br>Every tier.</h1>
+          <p class="core-hero__sub">
+            Every point below is a unit of work. Watch how Metisor spreads it —
+            the same core, whether it's landing on integrated graphics or a
+            sixty-four core workstation.
+          </p>
+        </div>
+      </div>
+
+      <div class="tiers">
+        <div class="tier">
+          <span class="tier__index">Tier 1</span>
+          <h3 class="tier__name">Integrated &amp; low-end</h3>
+          <p class="tier__desc">
+            Laptops without a discrete GPU. Metisor scales resolution, draw
+            distance and effect density automatically to hold a stable frame time.
+          </p>
+        </div>
+        <div class="tier">
+          <span class="tier__index">Tier 2</span>
+          <h3 class="tier__name">Mid-range desktop</h3>
+          <p class="tier__desc">
+            The most common target for hobbyist and indie projects. Full feature
+            set, tuned defaults, no manual profiling required to ship.
+          </p>
+        </div>
+        <div class="tier">
+          <span class="tier__index">Tier 3</span>
+          <h3 class="tier__name">Workstation &amp; studio</h3>
+          <p class="tier__desc">
+            Multi-core, multi-GPU setups used by the studios building at scale.
+            Metisor distributes load across every core it's given.
+          </p>
+        </div>
+      </div>
+
+      <div class="backends">
+        <h2 class="backends__headline">DirectX 12. Vulkan. Your choice.</h2>
+        <p class="backends__sub">
+          Metisor talks to the hardware you have, not the hardware we'd prefer
+          you had. Switch backends without touching your project.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= PIPELINE (light) ================= -->
+    <section class="theme-light" id="pipeline" data-theme="light">
+      <div class="pipeline">
+        <div class="pipeline__intro">
+          <p class="pipeline__eyebrow">Under the hood</p>
+          <h2 class="pipeline__headline">Nothing borrowed.</h2>
+          <p class="pipeline__sub">
+            No licensed renderer, no off-the-shelf UI toolkit. Metisor's core
+            is built in-house, piece by piece — which means nothing about it
+            is out of our hands.
+          </p>
+        </div>
+
+        <div class="glass-grid">
+          <div class="glass-card">
+            <canvas class="glass-card__canvas" data-hue="230"></canvas>
+            <div class="glass-card__content">
+              <span class="glass-card__label">Renderer</span>
+              <h3 class="glass-card__title">Built from scratch</h3>
+              <p class="glass-card__desc">
+                DirectX 12 and Vulkan paths written against our own
+                architecture — not layered on someone else's engine.
+              </p>
+            </div>
+          </div>
+
+          <div class="glass-card">
+            <canvas class="glass-card__canvas" data-hue="260"></canvas>
+            <div class="glass-card__content">
+              <span class="glass-card__label">Interface</span>
+              <h3 class="glass-card__title">Our own UI engine</h3>
+              <p class="glass-card__desc">
+                The editor runs on UI tooling built specifically for Metisor,
+                not a repurposed web view or a third-party framework.
+              </p>
+            </div>
+          </div>
+
+          <div class="glass-card">
+            <canvas class="glass-card__canvas" data-hue="285"></canvas>
+            <div class="glass-card__content">
+              <span class="glass-card__label">Scripting</span>
+              <h3 class="glass-card__title">Our own virtualization</h3>
+              <p class="glass-card__desc">
+                Gameplay code will run on script virtualization we're
+                building ourselves — designed to support several languages
+                without compromising on speed.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="roadmap-note">
+          <span class="roadmap-note__badge">In development</span>
+          <p class="roadmap-note__text">
+            Scripting support for C++, C#, and a Metisor-native custom
+            language is on the roadmap, with room to add more through
+            extensions. Alpha 0.1 doesn't include it yet — install to
+            follow along as it lands.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WHO'S BUILDING (dark) ================= -->
+    <section class="theme-dark" id="builders" data-theme="dark">
+      <div class="builders">
+        <canvas class="builders__canvas" id="buildersCanvas"></canvas>
+
+        <div class="builders__intro">
+          <p class="builders__eyebrow">Who's building with Metisor</p>
+          <h2 class="builders__headline">Built for one person.<br>Built for a full team.</h2>
+        </div>
+
+        <div class="builders__columns">
+          <div class="builders__col">
+            <span class="builders__tag">Solo &amp; hobbyist</span>
+            <h3 class="builders__col-title">Ship something on your own terms</h3>
+            <p class="builders__col-desc">
+              Most people building with Metisor right now are working alone
+              or in small teams — learning, prototyping, or chasing a project
+              they've wanted to make for years. No studio, no budget, no
+              waiting on a green light. Metisor is built to be picked up by
+              one person and taken as far as they want to take it.
+            </p>
+          </div>
+
+          <div class="builders__col">
+            <span class="builders__tag">Professional &amp; studio</span>
+            <h3 class="builders__col-title">Scale up without switching engines</h3>
+            <p class="builders__col-desc">
+              A smaller slice of the people using Metisor are professional
+              teams and studios pushing production-scale projects — multiple
+              disciplines, larger budgets, harder performance targets.
+              The same engine that runs a solo prototype is built to hold up
+              once a real team and a real deadline are attached to it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GET METISOR (light) ================= -->
+    <section class="theme-light" id="get-metisor" data-theme="light">
+      <div class="get-metisor">
+        <div class="get-metisor__glow"></div>
+        <div class="get-metisor__dots"></div>
+
+        <div class="get-metisor__content">
+          <div class="get-metisor__text">
+            <p class="get-metisor__eyebrow">Alpha 0.1 — Windows 11</p>
+            <h2 class="get-metisor__headline">Get Metisor.</h2>
+            <p class="get-metisor__sub">
+              This render was made entirely in Alpha 0.1 — our own renderer,
+              handling real foliage and glass in the same scene. It's early,
+              it's rough in places, and it's already this capable. Install it
+              and watch it grow.
+            </p>
+            <div class="get-metisor__actions">
+              <a href="#" class="btn btn--primary">Download for Windows 11</a>
+              <a href="https://github.com/ScuffedWizard/Metisor-Game-Engine" class="btn btn--ghost" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+            <p class="get-metisor__note">macOS and Android support are in active development.</p>
+          </div>
+
+          <div class="get-metisor__visual">
+            <img src="Metisor0.1.png" alt="A forest scene rendered in Metisor Alpha 0.1, featuring a glass sculpture of the version number 0.1" class="get-metisor__image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span>© 2026 Metisor Engine</span>
+    <span class="footer__links">
+      <a href="https://github.com/ScuffedWizard/Metisor-Game-Engine/blob/main/license/LICENSE.txt" target="_blank" rel="noopener">License</a>
+      <a href="https://github.com/ScuffedWizard/Metisor-Game-Engine/raw/main/license/Metisor_EULA_v2.docx" target="_blank" rel="noopener">EULA</a>
+      <a href="https://github.com/ScuffedWizard/Metisor-Game-Engine" target="_blank" rel="noopener">GitHub</a>
+    </span>
+    <span class="footer__version">0.1</span>
+  </footer>
+
+  <script src="glass.js"></script>
+  <script src="particles.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
