@@ -59,7 +59,7 @@ This Section applies to all commercial use of the Software. The table below summ
     Indie                    EUR 500 - EUR 25,000            10%      See Section 6.2 below
     Standard Commercial      EUR 25,000 - EUR 250,000          5%      Applies to gross revenue
     Enterprise               EUR 250,000 - $1,000,000         3%      See Section 7.1 below
-    Mega Studio              $1,000,000+                      1%      See Section 7.2 below
+    Mega Studio              EUR 1,000,000+                      1%      See Section 7.2 below
 
 6.1 Free Use Threshold
 
@@ -179,7 +179,7 @@ Upon termination, you must immediately cease all use of the Software and delete 
 
 13. GOVERNING LAW
 
-This Agreement shall be governed by and interpreted in accordance with the laws of Flanders, Belgium, without regard to conflict of law principles.
+This Agreement shall be governed by and interpreted in accordance with the laws of Belgium, without regard to conflict of law principles.
 
 14. ENTIRE AGREEMENT
 
