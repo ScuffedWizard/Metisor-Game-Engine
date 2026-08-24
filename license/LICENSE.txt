@@ -58,7 +58,7 @@ This Section applies to all commercial use of the Software. The table below summ
     Free Use                 EUR 0 - EUR 500                  0%      No royalty owed
     Indie                    EUR 500 - EUR 25,000            10%      See Section 6.2 below
     Standard Commercial      EUR 25,000 - EUR 250,000          5%      Applies to gross revenue
-    Enterprise               EUR 250,000 - $1,000,000         3%      See Section 7.1 below
+    Enterprise               EUR 250,000 - EUR 1,000,000         3%      See Section 7.1 below
     Mega Studio              EUR 1,000,000+                      1%      See Section 7.2 below
 
 6.1 Free Use Threshold
@@ -118,7 +118,7 @@ You may not structure, restructure, or route revenue through separate entities, 
 
 7.1 Enterprise License
 
-If your organization's applications generate gross revenue between EUR 250,000 and $1,000,000 within a rolling 12-month period, the royalty rate specified in Section 6.3 is reduced to:
+If your organization's applications generate gross revenue between EUR 250,000 and EUR 1,000,000 within a rolling 12-month period, the royalty rate specified in Section 6.3 is reduced to:
 
     3% of gross revenue derived from applications using the Software.
 
@@ -133,7 +133,7 @@ If you require terms beyond the royalty rate itself - including any of the below
 
 7.2 Mega Studio Tier
 
-If your organization's applications generate gross revenue exceeding $1,000,000 (one million US dollars, or the equivalent in local currency) within a rolling 12-month period, you qualify for the Mega Studio Tier.
+If your organization's applications generate gross revenue exceeding EUR 1,000,000 (one million US dollars, or the equivalent in local currency) within a rolling 12-month period, you qualify for the Mega Studio Tier.
 
 Under the Mega Studio Tier:
 
