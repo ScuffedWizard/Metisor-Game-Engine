@@ -133,7 +133,7 @@ If you require terms beyond the royalty rate itself - including any of the below
 
 7.2 Mega Studio Tier
 
-If your organization's applications generate gross revenue exceeding EUR 1,000,000 (one million US dollars, or the equivalent in local currency) within a rolling 12-month period, you qualify for the Mega Studio Tier.
+If your organization's applications generate gross revenue exceeding EUR 1,000,000 (one million Euros, or the equivalent in local currency) within a rolling 12-month period, you qualify for the Mega Studio Tier.
 
 Under the Mega Studio Tier:
 
