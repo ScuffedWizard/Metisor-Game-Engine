@@ -431,3 +431,10 @@ FodyWeavers.xsd
 # Custom Metisor Engine Exceptions
 !*.meta
 !assets/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
