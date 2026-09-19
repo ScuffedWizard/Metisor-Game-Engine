@@ -3,12 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#161616">
+  <meta name="theme-color" content="#000000">
   <title>404 — Metisor</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,400;6..144,500;6..144,600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,400;6..144,500;6..144,600&display=swap"
+    rel="stylesheet"
+  >
 
   <style>
     :root {
@@ -17,9 +20,12 @@
       --muted: #9a9a9a;
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
-    html, body {
+    html,
+    body {
       margin: 0;
       min-height: 100%;
       background: var(--bg);
@@ -53,13 +59,13 @@
       width: 75px;
       height: auto;
       filter: brightness(0) invert(1);
-      opacity: .92;
+      opacity: 0.92;
     }
 
     .code {
       margin: 0;
       font-size: clamp(120px, 22vw, 240px);
-      line-height: .8;
+      line-height: 0.8;
       font-weight: 500;
       letter-spacing: 0.045em;
     }
@@ -81,16 +87,31 @@
     }
 
     @media (max-width: 600px) {
-      main { padding: 32px 24px; }
-      .wordmark { top: 24px; left: 24px; width: 125px; }
+      main {
+        padding: 32px 24px;
+      }
+
+      .wordmark {
+        top: 24px;
+        left: 24px;
+        width: 62px;
+      }
     }
   </style>
 </head>
+
 <body>
   <main>
-    <img src="/Website/MetisorWordmark.png" alt="Metisor">
+    <img
+      class="wordmark"
+      src="/Website/MetisorWordmark.png"
+      alt="Metisor"
+    >
+
     <div class="code" aria-hidden="true">404</div>
+
     <h1>Page not found</h1>
+
     <p>The page you're looking for doesn't exist.</p>
   </main>
 </body>
