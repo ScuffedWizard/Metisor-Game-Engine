@@ -7,8 +7,8 @@
   --grad-2: #8B5CF6;
   --grad-3: #C084FC;
 
-  --font-display: "Google Sans Flex", "SF Pro Display", -apple-system, "Segoe UI", system-ui, sans-serif;
-  --font-body:    "SF Pro Text", "Google Sans Flex", -apple-system, "Segoe UI", system-ui, sans-serif;
+  --font-body: "Google Sans Flex", sans-serif;
+   --font-display: "Google Sans Flex", sans-serif;
 
   --max-w: 1320px;
   --gutter: 48px;
